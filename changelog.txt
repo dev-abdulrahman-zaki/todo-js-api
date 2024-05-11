@@ -1,0 +1,4 @@
+using of displayStats is better than displayStats2.
+because displayStats is already included in getTodos(). and it will update the stats when any changes happens.
+and i don't need another .then chain to just displayStats at the mount of website!! and then replicate displayStats again in getTodos().
+So It is better to include it in getTodos() from the beginning to handle both mount and update.

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="loader-container hidden" id="loader">
+      <div class="loader"></div>
+    </div>
+
+    <div class="tasks-stats" id="tasksStats"></div>
+
+    <div class="container">
+      <div class="add-task">
+        <input type="text" id="taskInput"/>
+        <span class="addBtn" id="addBtn">+</span>
+      </div>
+      <div class="tasks-content" id="tasksContent"></div>
+    </div>
+
+    <!-- Include SweetAlert from a CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
